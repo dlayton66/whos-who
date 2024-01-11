@@ -15,7 +15,7 @@
                 Please enter an answer
             </div>
         </div>
-        <button *ngIf="question.id<9" type="submit" class="button guess-button">Next Question</button>
+        <button *ngIf="question.id<9" type="submit" class="button guess-button">Next Song</button>
         <button *ngIf="question.id==9" (click)="finishGame()" class="button guess-button">Finish Game</button>
     </form> 
     <div>
