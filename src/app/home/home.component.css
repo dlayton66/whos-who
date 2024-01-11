@@ -43,7 +43,7 @@
 	justify-content: center;
 	background: rgba(var(--color-secondary), .8);
 	font-size: 180%;
-	height: 94vh;
+	height: calc(100vh - 49px);
 }
 
 .main {
