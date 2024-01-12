@@ -21,6 +21,7 @@
 
 .item-header {
 	cursor: pointer;
+	user-select: none;
 }
 
 .item-body {
